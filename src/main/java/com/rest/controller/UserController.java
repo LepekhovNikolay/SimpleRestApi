@@ -1,8 +1,8 @@
-package com.example.demo.controller;
+package com.rest.controller;
 
-import com.example.demo.model.User;
-import com.example.demo.repository.UserRepository;
-import exceptions.UserNotFoundException;
+import com.rest.model.User;
+import com.rest.repository.UserRepository;
+import com.rest.exceptions.UserNotFoundException;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;

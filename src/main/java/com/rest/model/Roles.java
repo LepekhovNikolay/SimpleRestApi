@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package com.rest.model;
 
 public enum Roles {
     NOT_AUTHORIZED_USER,

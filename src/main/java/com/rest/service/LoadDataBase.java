@@ -1,9 +1,9 @@
-package com.example.demo.service;
+package com.rest.service;
 
 
-import com.example.demo.repository.UserRepository;
-import com.example.demo.model.Roles;
-import com.example.demo.model.User;
+import com.rest.repository.UserRepository;
+import com.rest.model.Roles;
+import com.rest.model.User;
 import lombok.extern.slf4j.Slf4j;
 
 import org.springframework.boot.CommandLineRunner;
